@@ -54,7 +54,7 @@ bot.on('callback_query', (callbackQuery) => {
                     inline_keyboard: [
                         [{ text: 'Sim', callback_data: 'info_zap_suite' }],
                         [{ text: 'Não, Acessar o link de compra', callback_data: 'link_compra_zap_suite' }],
-                        [{ text: 'Voltar', callback_data: 'comprar_produto' }]
+                        [{ text: 'Voltar', callback_data: 'voltar' }]
                     ]
                 }
             };
