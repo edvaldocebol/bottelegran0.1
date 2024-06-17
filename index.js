@@ -68,7 +68,7 @@ bot.on('callback_query', (callbackQuery) => {
                     ]
                 }
             };
-            bot.sendMessage(chatId, messages.welcome(username), zapSuiteOptions);
+            bot.sendMessage(chatId, messages.zapSuiteInfo, zapSuiteOptions);
             break;
 
         case 'info_zap_suite':
