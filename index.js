@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '7284330404:AAGUgpU80XuBIXJPHfB4rqyIbMGke0fDMLg';
+const token = process.env.TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
 // Comando /start para iniciar a conversa
